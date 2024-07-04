@@ -1,8 +1,6 @@
-/* *{
-    padding: 0;
+h1,h2,h3,h4,h5,h6,p{
     margin: 0;
-    box-sizing: border-box;
-} */
+}
 body{
     background-color: bisque;
 }
@@ -12,18 +10,27 @@ body{
     padding: 10px;
     text-align: center;
     font-size: 22px;
+    
+}
+.container{
+    display: flex;
+    
+    
 }
 .box{
     background-color: aqua;
     width: 400px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 10px #000;
+
 
 }
 .fields{
     padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
 }
 .fields > label{
-    width: 180px;
-    display: inline-block;
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -34,4 +41,10 @@ body{
     border: 2px solid black;
     border-radius: 20px;
     margin: 10px;
+}
+.btn.print{
+    margin-top: 20px;
+    margin-left: 140px;
+
+    
 }
