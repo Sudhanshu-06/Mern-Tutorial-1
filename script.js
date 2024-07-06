@@ -1,5 +1,5 @@
 function updateCard(){
-     let schoolNameTxt=document.getElementById("schoolName").value;
+     document.getElementById("schoolNameVal").value=document.getElementById("schoolName").value;
      
      let studentNameTxt=document.getElementById("studentName").value;
      
@@ -11,12 +11,10 @@ function updateCard(){
      
      let contactNoTxt=document.getElementById("contactno").value;
      
-     console.log(schoolNameTxt,studentNameTxt,doBTxt,classTxt,rollnoTxt,contactNoTxt);
+     // console.log(schoolNameTxt,studentNameTxt,doBTxt,classTxt,rollnoTxt,contactNoTxt);
      
-     
-    
-    
 }
+
 // function clearAll(){
 //     document.getElementById("schoolName").value="";
      
